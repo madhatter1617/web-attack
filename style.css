@@ -1,5 +1,5 @@
 body {
-    background: rgba(146, 226, 202, 0.205);
+    background: rgba(138, 247, 174, 0.205);
   } 
     .wrapper {
     margin: 0 auto;
@@ -7,9 +7,9 @@ body {
     padding-bottom: 40px;
   }
 
-    h1, h2, h6 {
+    h1, h2 {
     font-family: 'Gabriela', serif;
-    color: rgb(77, 37, 37);
+    color: rgb(37, 38, 77);
     text-align: center;
     
   }
@@ -18,15 +18,17 @@ body {
     width: 100%;
     height: auto;
   }
+  
   #content {
     padding: 20px;
-    background: rgba(199, 117, 195, 0.288);
+    padding-bottom: 10px;
+    background: rgba(199, 117, 178, 0.548);
   }
   p {
     font-size: 1em;
   }
   a {
-    color: rgb(173, 0, 0);
+    color: rgb(179, 6, 6);
     text-decoration: none;
     font-size: x-large;
   }
