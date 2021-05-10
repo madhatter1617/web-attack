@@ -7,9 +7,11 @@ body {
     padding-bottom: 40px;
   }
 
-  h1, h2 {
+    h1, h2, h6 {
     font-family: 'Gabriela', serif;
     color: rgb(77, 37, 37);
+    text-align: center;
+    
   }
   img {
     max-width: 100%;
@@ -18,5 +20,13 @@ body {
   }
   #content {
     padding: 20px;
-    background: rgba(248, 190, 245, 0.288);
+    background: rgba(199, 117, 195, 0.288);
+  }
+  p {
+    font-size: 1em;
+  }
+  a {
+    color: rgb(173, 0, 0);
+    text-decoration: none;
+    font-size: x-large;
   }
