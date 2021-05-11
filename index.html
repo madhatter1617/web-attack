@@ -3,6 +3,16 @@
   <head>
       <link rel="stylesheet" href="style.css">
     <title>Welcome to My Website! </title>
+    <script type="text/javascript">
+    
+        function setNewImage(){
+        document.getElementById("ff").src ="https://i.imgur.com/KWSqaiZ.png";
+        }
+        function setOldImage(){
+            document.getElementById("ff").src ="https://www.pngitem.com/pimgs/m/79-790763_fun-facts-painting-hd-png-download.png";
+        }
+
+    </script>
   </head>
   <body>
     <div class="wrapper">
@@ -17,7 +27,7 @@
         <a href="https://www.heb.com/category/shop/bakery-bread/2863/490014">Bakery!</a>
         <p>I work at a bakery during the weekends!</p>
         <img src="https://www.deciccoandsons.com/wp-content/uploads/2019/06/somers_bakery-department-header.jpg"
-  alt="Basic baker bread wall" id="bread wall"
+  alt="Basic bakery" id="breadWall"
   title="yummy sweets"> 
         
   <a href="https://www.acer.com/ac/en/US/content/home">Computer Repairs!</a>
@@ -26,7 +36,11 @@
         <img src ="https://mylaptopguide.com/wp-content/uploads/2018/06/Acer-Chromebook-Spin-11-CP311-1HN-C2DV-Review.jpg" 
         alt ="chromebook example" id="chromie"
         title="chromebook flipping">
-   
-    </div>
+        <h2>More about Ro!</h2>
+        <img id="ff" onmouseover="setNewImage()" onmouseout="setOldImage()" 
+            src="https://www.pngitem.com/pimgs/m/79-790763_fun-facts-painting-hd-png-download.png"
+            width="300"/>
+
+        </div>
   </body>
 </html> 
